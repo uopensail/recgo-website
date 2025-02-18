@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Damo-Embedding Introduction - 5min ⏱️
+            recgo Introduction - 5min ⏱️
           </Link>
         </div>
       </div>

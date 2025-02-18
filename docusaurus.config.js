@@ -8,7 +8,7 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Damo Embedding',
+  title: 'Rec go go',
   tagline: 'The parameter server is based on rocksdb',
   favicon: 'img/favicon.ico',
 
@@ -16,12 +16,12 @@ const config = {
   url: 'https://uopensail.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/damo-embedding/',
+  baseUrl: '/recgo-website/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'uopensail', // Usually your GitHub org/user name.
-  projectName: 'damo-embedding', // Usually your repo name.
+  projectName: 'recgo-website', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -31,7 +31,7 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh-Hans',
     locales: ['en', 'zh-Hans'],
     localeConfigs: {
       en: {
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/uopensail/damo-embedding/edit/docs/docs',
+            'https://github.com/uopensail/recgo-website/edit/docs/docs',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -59,7 +59,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/uopensail/damo-embedding/edit/docs/docs',
+            'https://github.com/uopensail/recgo-website/edit/docs/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
